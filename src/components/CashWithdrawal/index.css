@@ -1,0 +1,84 @@
+/* Write your CSS here */
+.bg_container {
+  background-color: grey;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading {
+  background-color: grey;
+  color: blue;
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 60px;
+  font-size: 30px;
+}
+.heading2 {
+  color: white;
+  height: 40px;
+  font-size: 30px;
+}
+.container {
+  background-color: #150b3e;
+  border-radius: 20px;
+  background-size: cover;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+}
+.profile {
+  display: flex;
+  flex-direction: row;
+  width: 40%;
+  justify-content: space-around;
+}
+.yourBalanceContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 45px;
+  padding-right: 45px;
+}
+.yourBalanceHeading {
+  color: #585076;
+}
+.amount {
+  color: white;
+}
+.amountHeading {
+  color: #585076;
+  font-size: 15px;
+}
+.WithdrawalHeading {
+  color: white;
+  padding-left: 35px;
+}
+.withdrawalPara {
+  color: #585076;
+  padding-left: 35px;
+  font-weight: bold;
+}
+.amountContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.buttons {
+  border-style: solid;
+  border-color: white;
+  color: #d4d2db;
+  border-radius: 10px;
+  background-color: transparent;
+  height: 55px;
+  width: 190px;
+}
